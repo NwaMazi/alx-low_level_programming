@@ -3,7 +3,7 @@
 /**
  * main - This program prints the alphabets capital and small letters.
  *
- * Returns 0
+ * Return: 0
  */
 int main(void)
 {

@@ -5,7 +5,7 @@
 /**
  * main - This program prints the alphabet without q and e.
  *
- * Returns 0
+ * Returns: 0
  */
 int main(void)
 {
