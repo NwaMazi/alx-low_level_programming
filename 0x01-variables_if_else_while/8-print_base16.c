@@ -3,7 +3,7 @@
 /**
  * main - This program prints numbers between 0 to 9 and letters between a to f.
  *
- * Returns 0
+ * Return: 0
  */
 int main(void)
 {
