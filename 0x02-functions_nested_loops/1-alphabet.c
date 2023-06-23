@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * main - This program a function that prints the alphabet, in lowercase.
+ * print_alphabet - This program a function that prints the alphabet, in lowercase.
  *
  * Return: 0
  */
