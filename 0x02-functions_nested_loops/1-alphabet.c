@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * main -  This program a function that prints the alphabet, in lowercase, followed by a new line.
+ * main - This program a function that prints the alphabet, in lowercase.
  *
  * Return: 0
  */
@@ -17,9 +17,4 @@ void print_alphabet(void)
 	putchar(l);
 	}
 	putchar('\n');
-}
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
