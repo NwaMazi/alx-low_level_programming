@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main -  This program a function that prints the alphabet, in lowercase, followed by a new line.
