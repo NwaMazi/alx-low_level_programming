@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - This program a function that prints the alphabet, in lowercase.
+ * print_alphabet - prints the alphabet, in lowercase.
  *
  * Return: 0
  */
@@ -15,7 +15,6 @@ void print_alphabet(void)
 	{
 		_putchar(c);
 		c++;
-
 	}
 	_putchar('\n');
 }
