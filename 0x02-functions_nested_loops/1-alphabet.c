@@ -8,13 +8,14 @@
  * Return: 0
  */
 void print_alphabet(void)
-
 {
-	char l;
+	char c = 'a';
 
-	for (l = 'a'; l <= 'z'; l++)
+	while (c <= 'z')
 	{
-	putchar(l);
+		_putchar(c);
+		c++;
+
 	}
-	putchar('\n');
+	_putchar('\n');
 }
