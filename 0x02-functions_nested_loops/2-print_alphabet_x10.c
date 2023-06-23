@@ -6,7 +6,7 @@
  *
  * Return: 0
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	char l;
 
@@ -22,7 +22,7 @@ int main(void)
 
 	while (n < 10)
 	{
-	print_alphabet();
+	print_alphabet_x10();
  	n++;
 	}
 	return (0);
