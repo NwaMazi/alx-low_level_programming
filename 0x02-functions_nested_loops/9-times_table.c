@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * times_table: It prints 9 times table starting with 0
+ * times_table - function for multiplication
+ * Description : It prints 9 times table starting with 0
  * Return: Nothing.
  */
 void times_table(void)
