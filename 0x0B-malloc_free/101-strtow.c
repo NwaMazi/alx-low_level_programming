@@ -39,7 +39,7 @@ char **strtow(char *str)
 
 	while (*(str + lgt))
 		lgt++;
-	wrds = count_wrd(str);
+	wrds = count_word(str);
 	if (wrds == 0)
 		return (NULL);
 
@@ -49,7 +49,7 @@ char **strtow(char *str)
 
 	for (a = 0; a <= lgt; a++)
 	{
-		if (str[i] == ' ' || str[i] == '\0')
+		if (str[a] == ' ' || str[a] == '\0')
 		{
 			if (c)
 			{
