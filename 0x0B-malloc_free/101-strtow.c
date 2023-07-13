@@ -38,7 +38,7 @@ char **strtow(char *str)
 	int a, b = 0, lgt = 0, wrds, c = 0, start, end;
 
 	while (*(str + lgt))
-		lengt++;
+		lgt++;
 	wrds = count_wrd(str);
 	if (wrds == 0)
 		return (NULL);
